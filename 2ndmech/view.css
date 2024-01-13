@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #fff;
+  --secondary-color: black;
+  --bg-color: rgb(223, 218, 218);
+}
+
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: #fff;
+  --bg-color: rgb(70, 69, 69);
+}
+
+body {
+  width: 100%;
+  background: var(--bg-color);
+  overflow-x: hidden;
+}
+.registration-container h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  font-family: system-ui;
+}
+
+.registration-container {
+  background: var(--primary-color);
+  border-radius: 25px;
+  width: 99%;
+  height: auto;
+  padding: 0.9rem;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 2px;
+  -webkit-box-shadow: 3px 13px 47px -22px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: 3px 13px 47px -22px rgba(0, 0, 0, 0.83);
+  box-shadow: 3px 13px 47px -22px rgba(0, 0, 0, 0.83);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.registration-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.profile-container {
+  background: var(--primary-color);
+  border-radius: 25px;
+  width: 97%;
+  height: auto;
+  padding: 0.9rem;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-section h4 {
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  height: 0px;
+  color: var(--secondary-color);
+}
+
+.image-section p {
+  margin-left: 10px;
+  margin-top: 15px;
+  color: var(--secondary-color);
+}
+
+.image-section h3 {
+  margin-left: 30px;
+  color: var(--secondary-color);
+}
+
+.image-section {
+  width: 280px;
+}
+
+.image-section .tp-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.blood-img {
+  width: 20px;
+  height: 25px;
+}
+
+.registration-form hr {
+  height: 100vh;
+}
+.personal-section {
+  display: flex;
+}
+
+.personal-section .label-tag {
+  display: grid;
+  grid-gap: 6px;
+}
+
+.personal-section .value-tag {
+  display: grid;
+  grid-gap: 6px;
+}
+
+.label-tag label {
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+.value-tag label {
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--secondary-color);
+  margin-left: 60px;
+}
+
+.other-section {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag label {
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 17px;
+  color: var(--secondary-color);
+  display: grid;
+  padding-right: 39px;
+}
+
+.tag-2 label {
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--secondary-color);
+  display: grid;
+  margin-left: 30px;
+}
+
+.tag label {
+  margin-bottom: 20px;
+}
+
+.tag-2 label {
+  margin-bottom: 30px;
+}
+
+.tag-3 {
+  display: grid;
+}
+
+.dark-logo:active {
+  transform: rotate(180deg) scale(0.6);
+  transition: 0.5s;
+}
+
+.dark-logo:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.sidebar-right {
+  width: auto;
+  display: flex;
+  column-gap: 40px;
+  display: flex;
+  justify-content: baseline;
+}
+
+.sidebar-right a {
+  margin-top: 5px;
+}
+
+.sidebar-right a i {
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.sidebar-right a i:hover {
+  transform: scale(1.1);
+}
+
+#find {
+  width: 250px;
+  padding: 5px 16px;
+  background: transparent;
+  border: 1px solid #000;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  border-color: gray;
+  border-width: 2px;
+  text-transform: capitalize;
+  outline: none;
+  letter-spacing: 2px;
+  color: var(--secondary-color);
+}
+
+marquee {
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+  letter-spacing: 3px;
+}
